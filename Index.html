@@ -1,0 +1,41 @@
+<!DOCTYPE html><html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GameLink ID</title>
+<style>
+body{margin:0;background:#10131b;color:#fff;font-family:Arial,sans-serif}
+header{text-align:center;background:#191f2d;padding:22px;border-bottom:2px solid #00d9ff}
+h1{color:#00d9ff;margin:0}
+main{max-width:500px;margin:25px auto;padding:15px}
+.card{background:#1b2230;padding:20px;border-radius:12px;margin-bottom:15px}
+button{width:100%;padding:14px;background:#00d9ff;border:0;border-radius:8px;font-size:16px;font-weight:bold}
+p{color:#cbd5e1}
+footer{text-align:center;padding:20px;color:#aaa}
+</style>
+</head>
+<body>
+<header>
+<h1>GameLink ID</h1>
+<p>Download File Gaming</p>
+</header>
+<main>
+<div class="card">
+<h2>File Gaming #1</h2>
+<p>Unduh file APK atau ZIP gaming.</p>
+<button onclick="downloadFile()">DOWNLOAD SEKARANG</button>
+</div>
+</main>
+<footer>GameLink ID &copy; 2026</footer>
+<script>
+function downloadFile(){
+ const link="GANTI_DENGAN_LINK_SHORTLINK";
+ if(link.startsWith("https://")){
+  window.location.href=link;
+ }else{
+  alert("Link download belum dipasang.");
+ }
+}
+</script>
+</body>
+</html>
